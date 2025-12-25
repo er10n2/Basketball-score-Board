@@ -1,0 +1,105 @@
+body {
+background-color: #fff;
+}
+
+
+.topDiv{
+
+    background-color: grey;
+    margin:auto;
+     width:700px;
+     height: 500px;
+
+     display:flex;
+     align-items: center;
+     justify-content: space-around;
+
+     border-radius: 20px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        
+}
+
+
+.homeDiv h3{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.homeDiv h1{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.homeDiv{
+
+    background-color: yellow;
+    margin:auto;
+    width:40%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.homeInnerDiv, .guestInnerDiv{
+    background-color: black;
+    height:50%;
+    width: 50%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:30px;
+}
+
+.pointsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+
+}
+
+.pointsDiv button{
+    height:35px;
+    width:36px;
+    font-size:15px;
+    border-radius:5px;
+    border: 1px solid black;
+    margin-bottom: 5px;
+
+  
+}
+
+#resetButton{
+    background-color: red;
+    color: white;
+    height:35px;
+    width:80px;
+    font-size:15px;
+    border-radius:5px;
+    border: 1px solid black;
+    margin-top:20px;
+}
+
+.guestDiv h3{
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.guestDiv h1{
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.guestDiv{
+    background-color: yellow;
+    margin:auto;
+    width:40%;
+    height: 50%;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}

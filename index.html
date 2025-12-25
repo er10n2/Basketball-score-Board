@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+
+
+    
+    <div class="topDiv">
+
+
+        <div class="homeDiv">
+
+            <h3>HOME</h3>
+
+
+            <div class="homeInnerDiv">
+
+                <h1 id="homeScore">0</h1>
+
+
+            </div>
+
+            <div class="pointsDiv">
+
+            <button onClick="addOnePoint()">+1</button>
+            <button onClick="addTwoPoints()">+2</button>
+            <button onClick = "addThreePoints()">+3</button>
+
+            </div>
+
+
+            <p id="listOfPointsH">List of points : </p>
+
+        </div>
+
+
+
+        <button id="resetButton" onClick="reset()">Reset</button>
+
+
+
+        <div class="guestDiv">
+
+            <h3>GUEST</h3>
+
+            <div class="guestInnerDiv">
+
+                <h1 id="guestScore">0</h1>
+
+            </div>
+
+            <div class="pointsDiv">
+            <button onClick="addOnePointG()" >+1</button>
+            <button onClick="addTwoPointsG()">+2</button>
+            <button onClick = "addThreePointsG()">+3</button>
+
+            </div>
+
+
+             <p id="listOfPointsG">List of points : </p>
+        </div>
+        
+        
+
+
+
+    </div>
+
+
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
